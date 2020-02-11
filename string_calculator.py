@@ -1,3 +1,4 @@
+#Program counts the uppercase and lowercase of any inputted word
 def string_counter(word):
     upper_case = ''
     lower_case = ''
