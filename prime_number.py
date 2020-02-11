@@ -1,5 +1,5 @@
-def prime():
-    num = int(input("Enter number: "))
+#Program checks to see if a number is prime or not
+def prime(num):
     if num > 1:
         for i in range (2,num):
             if(num%i)==0:
@@ -9,4 +9,5 @@ def prime():
             print(f"The number {num} is prime")
     else:
         print(f"The number {num} is not prime")
-prime()
+number = int(input("Enter number: "))
+prime(number)
